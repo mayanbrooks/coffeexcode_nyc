@@ -24,7 +24,7 @@ section{
 }
 
 .logo_size{
-  width: 350px;
+  width: 550px;
   box-sizing: border-box;
 }
 
@@ -35,23 +35,62 @@ section{
   font-size: 8px;
 }
 
-.title{
-  font-size: 26px;
+.tagline{
+  margin: 0 auto;
+  padding: 50px;
+  /* color: #E84A87; */
+  color: #390D6B;
+  font-size: 30px;
   font-family: "Rubik", sans-serif;
   text-align: center;
 
+}
+
+.about-box{
+  border: 1px solid;
+  border-color: #E84A87;
+  width: 350px;
+  margin:0 auto;
+  /* background-color: #E84A87; */
 
 }
+
+.title{
+  font-size: 30px;
+  font-family: "Rubik", sans-serif;
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+  color:  #E84A87;
+
+
+}
+
+/* .mod_about{
+  color: white;
+} */
 
 .text{
-  font-size: 18px;
+  font-size: 22px;
   text-align: center;
+  padding: 40px;
   font-family: "Rubik", sans-serif;
 
 }
 
+.list{
+  margin: 0 auto;
+  text-align: center;
+  font-size: 22px;
+  font-family: "Rubik", sans-serif;
+}
 
-  .main_style_border{
+.topic{
+  padding: 5px;
+
+}
+
+.main_style_border{
     height: 1rem;
     border-bottom: 1px solid;
     border-bottom-color: #E84A87;
@@ -59,6 +98,10 @@ section{
     margin-left: 100px;
     margin-right: 100px;
 
+  }
+
+.event_title{
+    color: black;
   }
 
 .event_header{
@@ -74,7 +117,7 @@ section{
   padding-left: 70px;
   padding-right: 70px;
   font-family: "Rubik", sans-serif;
-  font-size: 18px;
+  font-size: 22px;
 }
 
 .event_pos{
@@ -82,9 +125,30 @@ section{
   text-align: center;
 }
 
+.event_margin{
+  margin-top: 40px;
+}
+
+.my_signup_form{
+  text-align: center;
+  margin: 0 auto;
+}
+
+#mc_embed_signup{
+  background:#fff;
+  clear:left;
+  font:22px Helvetica,Arial,sans-serif;
+  width:250px;
+}
+
+.my-subscribe .button{
+  background-color: #E84A87 !important;
+  border-radius: 0.25;
+}
+
 .media_links{
-  padding-top: 35px;
-  padding-right: 35px;
+  padding-top: 80px;
+  /* padding-right: 35px; */
   padding-bottom: 0px;
 }
 
@@ -93,9 +157,7 @@ section{
   max-height: 70px;
 }
 
-.contact-col{
-  margin-top: 120px;
-}
+
 
 textarea{
   height: 9rem;
