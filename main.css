@@ -121,6 +121,18 @@ section{
   max-width: 750px;
 }
 
+@media only screen and (max-width: 1650px){
+.event_size{
+    max-width: 1000px;
+  }
+}
+
+@media only screen and (max-width: 1300px){
+.event_size{
+    max-width: 750px;
+  }
+}
+
 @media only screen and (max-width: 1024px){
 .event_size{
     max-width: 600px;
