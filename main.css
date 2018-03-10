@@ -108,10 +108,12 @@ section{
 
 .event_container{
   margin: 0 auto;
+  padding: 10px;
 
 }
 
 .event_pos{
+  padding: 50px;
   margin-top: 30px;
   margin-left: 100px;
   margin-right: 100px;
@@ -123,7 +125,7 @@ section{
 
 @media only screen and (max-width: 1650px){
 .event_size{
-    max-width: 1000px;
+    max-width: 800px;
   }
 }
 
