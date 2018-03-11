@@ -66,6 +66,8 @@ section{
 
 }
 
+
+
 /* .mod_about{
   color: white;
 } */
@@ -194,4 +196,9 @@ textarea{
 .copyright_center{
   text-align: center;
 
+}
+
+.disclaimer{
+  text-align: center;
+  font-size: 9px;
 }
