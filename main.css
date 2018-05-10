@@ -1,3 +1,14 @@
+body {
+  display: flex;
+   min-height: 100vh;
+   flex-direction: column;
+
+}
+
+main {
+  flex: 1 0 auto;
+}
+
 .clearfix:after {
   visibility: hidden;
   display: block;
@@ -10,40 +21,118 @@
 *:first-child+html .clearfix { zoom: 1; } /* IE7 */
 
 .mycontainer{
-  width: 80%;
+  width: 85%;
   margin: 0 auto;
+  background-color: white;
 }
 
 section{
   margin-top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 80px;
+  min-height: 250px;
+}
+
+.media_container{
+  width: 100%;
+  min-height: 100px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 20px;
+
+}
+
+.sidenav_subscribe{
+  max-width: 33%;
+}
+
+.hero_section{
+  min-height: 750px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  box-sizing: border-box;
+}
+
+.hero_image{
+  background-image: url("assets/woctech-msft-edited-2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 750px;
+  margin: 0px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+
+.alternate-tagline{
+  color: white;
+  font-family: "lora", serif;
+  font-size: 36px;
+  font-style: italic;
+  position: relative;
+  text-align: center;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1.0;
+  width: 80%;
+
+}
+
+.section_minus_height{
+  margin: 0;
 }
 
 .logo_pos{
   text-align: center;
+  margin: 50px;
+  z-index: 1;
 }
 
 .logo_size{
-  width: 550px;
+  width: 250px;
   box-sizing: border-box;
 }
 
-.invisible{
-  color: white;
-  margin: 0px;
-  padding: 0px;
-  font-size: 8px;
+.nav-wrapper{
+  font-family: "Roboto";
+  box-sizing: border-box;
+}
+
+.nav-padding{
+  padding-top: 13px;
+}
+
+.header_mini_logo{
+  margin: 0 auto;
+  text-align:center;
+}
+
+.mini_logo_text_direct{
+  margin: 0 auto;
+}
+
+.mini_logo_direct{
+  width: 80px;
+  padding-top: 12px;
 }
 
 .tagline{
   margin: 0 auto;
-  padding: 50px;
-  /* color: #E84A87; */
+  padding-top: 40px;
+  font-style: italic;
   color: #390D6B;
-  font-size: 30px;
   font-family: "Rubik", sans-serif;
+  font-family: "arial", sans-serif;
   text-align: center;
 
+}
+
+.tagline-font{
+  font-size: 42px;
 }
 
 .about-box{
@@ -56,32 +145,29 @@ section{
 }
 
 .title{
-  font-size: 30px;
+  font-size: 36px;
   font-family: "Rubik", sans-serif;
+  font-family: "arial", sans-serif;
   text-align: center;
   padding: 10px;
   margin: 0;
   color:  #E84A87;
+}
 
+.text{
+  font-size: 22px;
+  text-align: center;
+  padding: 36px;
+  font-family: "Rubik", sans-serif;
+  font-family: "arial", sans-serif;
 
 }
 
 
 .text-mission{
 padding: 20px;
-}
-
-
-/* .mod_about{
-  color: white;
-} */
-
-.text{
-  font-size: 22px;
-  text-align: center;
-  padding: 40px;
-  font-family: "Rubik", sans-serif;
-
+font-style: italic;
+font-size: 40px;
 }
 
 .list{
@@ -89,11 +175,16 @@ padding: 20px;
   text-align: center;
   font-size: 22px;
   font-family: "Rubik", sans-serif;
+  font-family: "arial", sans-serif;
 }
 
 .topic{
   padding: 5px;
 
+}
+
+.event_margin{
+  margin: 0 auto;
 }
 
 .main_style_border{
@@ -106,12 +197,22 @@ padding: 20px;
 
   }
 
+  .margin-spacer{
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
 .subscribe_button{
     width: 350px;
     margin: 0 auto;
     padding: 10px;
     background-color: #E84A87;
+    border: 1px solid black;
 
+  }
+
+  .subscribe_space_modify{
+    padding: 2px;
   }
 
 .subscribe_text{
@@ -121,60 +222,39 @@ padding: 20px;
     margin: 0;
   }
 
-.event_margin{
-  margin-top: 40px;
-  margin-bottom: 40px;
-
+.footer-subscribe{
+  background-color: white;
+  width: 200px;
+  margin-bottom: 20px;
 }
 
-.event_container{
-  margin: 0 auto;
-  padding: 10px;
-
+.footer-subscribe-text{
+  font-size: 16px;
+  color: #e84a87;
 }
 
-.event_pos{
-  padding: 50px;
-  margin-top: 30px;
-  margin-left: 100px;
-  margin-right: 100px;
+.card-image{
+  min-width: 200px !important;
 }
 
-.event_size{
-  max-width: 750px;
+.card_title{
+  margin: 0px;
+  padding: 20px;
+  font-size: 26px;
 }
 
-@media only screen and (max-width: 1650px){
-.event_size{
-    max-width: 800px;
-  }
-}
-
-@media only screen and (max-width: 1300px){
-.event_size{
-    max-width: 750px;
-  }
-}
-
-@media only screen and (max-width: 1024px){
-.event_size{
-    max-width: 600px;
-  }
-}
-
-@media only screen and (max-width: 375px){
-.event_size{
-    max-width: 375px;
-  }
+.card-desc{
+  padding-left: 20px;
+  font-size: 20px;
 }
 
 
-@media only screen and (max-width: 414px){
-.event_size{
-    max-width: 414px;
-  }
+#card-action-background{
+  background-color: #390D6B;
+  background-color: #e84a87;
+  color: white;
+  text-align: center;
 }
-
 
 
 .my_signup_form{
@@ -194,18 +274,24 @@ padding: 20px;
   border-radius: 0.25;
 }
 
-.media_links{
-  padding-top: 80px;
-  /* padding-right: 35px; */
-  padding-bottom: 0px;
+
+.footer-nav-links{
+  text-align: center;
+  font-size: 20px;
+}
+
+.footer-nav-space{
+padding: 10px;
 }
 
 .media_link{
   padding: 5px;
-  max-height: 70px;
+  max-height: 50px;
 }
 
-
+.media_nav{
+  padding: 10px !important;
+}
 
 textarea{
   height: 9rem;
@@ -219,5 +305,87 @@ textarea{
 
 .disclaimer{
   text-align: center;
-  font-size: 9px;
+  font-size: 14px;
+  padding: 20px;
+}
+
+
+
+/* contactus styling */
+.contact-us-hero-photo{
+  text-align: center;
+  margin: 50px;
+}
+
+.contact-us-hero-photo-direct{
+  width: 80%;
+}
+
+.address-font{
+  font-size: 24px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.contact-col{
+  margin:  150px;
+}
+
+.contact-text-modified{
+  margin-top: 60px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.map-frame-styling{
+  text-align: center;
+  margin: 0 auto;
+}
+
+
+
+/* about us styling */
+
+.about-us-photo{
+  text-align: center;
+  margin: 50px;
+}
+
+.about-us-photo-direct{
+  width: 75%;
+}
+
+.additional-spacer{
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+}
+
+.founder-headshot{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.founder-headshot-direct{
+  width: 75%;
+}
+
+.founder-title{
+  font-family: "Lora", serif;
+  font-size: 36px;
+  margin: 0px;
+  font-style: italic;
+
+}
+.founder-text{
+  padding: 5px;
+  font-size: 16px;
+  font-family: arial, sans-serif;
+}
+
+/* events styling */
+
+.past-events-text{
+  text-align: center;
+  font-size: 16px;
+
 }

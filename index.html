@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title> COFFEE & CODED</title>
+    <title> COFFEE & CODED - HOME </title>
 
     <!-- Favicons -->
 
@@ -40,68 +40,153 @@
 <!--
         <link rel="stylesheet" href="reset.css"> -->
 
-        <link href="https://fonts.googleapis.com/css?family=Roboto|Montserrat|Raleway|Rubik|Rosario" rel="stylesheet">
-
+        <link href="https://fonts.googleapis.com/css?family=Roboto|Montserrat|Raleway|Rubik|Rosario|Lora" rel="stylesheet">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-
-         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
-
-
-
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
         <link href="main.css" rel="stylesheet" type="text/css">
 
 
   </head>
   <body>
 
-    <nav>
-      <div class="nav-wrapper pink accent-4">
-            &nbsp;
-      </div>
-    </nav>
+    <header>
+      <div class="navbar-fixed">
+        <nav>
+          <div class="nav-wrapper pink accent-4">
 
-    <main class="mycontainer">
+             <a href="#" class="brand-logo center">
+                 <div class="header_mini_logo">
+                    <p class="left mini_logo_text_direct">COFFEE & CODED</p>
+                    <img class=" left mini_logo_direct" src="logo87d99a427c/logo87d99a427c-cubeonly.png" alt="coffee and coded mini logo">
+                 </div>
+            </a>
+
+    <!-- collapsible nav -->
+
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="large material-icons" style="color: white"> menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                  <li><a href="index.html">HOME</a></li>
+                  <li><a href="about-us.html"> ABOUT US</a></li>
+                  <li><a href="events.html"> EVENTS </a></li>
+                  <!-- <li><a href="blog.html"> BLOG </a></li> -->
+                  <li><a href="contact-us.html">CONTACT US</a></li>
+                </ul>
+
+              </div>
+            </nav>
+          </div>
+
+          <!-- sidenav must be outside of fixed header -->
+
+          <ul class="sidenav" id="mobile-demo">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about-us.html">ABOUT US</a></li>
+            <li><a href="events.html"> EVENTS </a></li>
+                  <!-- <li><a href="blog.html"> BLOG </a></li> -->
+            <li><a href="contact-us.html">CONTACT US</a></li>
+
+            <li>
+              <div class="media_container">
+                <div class="media_links center-align">
+
+                  <a href="https://www.instagram.com/coffeeandcoded_nyc/" target="_blank" class="left media_nav">
+                    <img class="media_link" src="assets/instagram_logo.png" alt="instagram logo"/>
+                    </a>
+
+                    <a href="https://twitter.com/coffeeandcoded" target="_blank" alt="instagram logo" class="left media_nav"> <img class="media_link" src="assets/twitter_logo.png"/>
+                    </a>
+
+                    <a href="https://www.facebook.com/coffeeandcodednyc/" target="_blank" alt="facebook logo" class="left media_nav"> <img class="media_link" src="assets/facebook_logo.png"/>
+                    </a>
+
+                    <a href="https://www.linkedin.com/company/coffee-coded/" target="_blank" alt="linkedin logo" class="left media_nav"> <img class="media_link" src="assets/linkedin_logo.png"/>
+                    </a>
+
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="subscribe_button footer-subscribe subscribe_space_modify">
+                  <a href="http://eepurl.com/drjC6z" target="_blank">
+                    <p class="subscribe_text footer-subscribe-text">SUBSCRIBE</p>
+                  </a>
+                </div>
+              </li>
+            </ul>
 
 
-      <h1 class="invisible"> COFFEE & CODED </h1>
+            <!-- dropdown content -->
+            <ul id="dropdown1" class="dropdown-content">
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="about-us.html">ABOUT US</a></li>
+              <li><a href="events.html"> EVENTS </a></li>
+                  <!-- <li><a href="blog.html"> BLOG </a></li> -->
+              <li><a href="contact-us.html">CONTACT US</a></li>
+
+              <li>
+                <div class="media_container">
+                  <div class="media_links center-align">
+
+                    <a href="https://www.instagram.com/coffeeandcoded_nyc/" target="_blank" class="left media_nav">
+                      <img class="media_link" src="assets/instagram_logo.png" alt="instagram logo"/></a>
+
+                    <a href="https://twitter.com/coffeeandcoded" target="_blank" alt="instagram logo" class="left media_nav"> <img class="media_link" src="assets/twitter_logo.png"/>
+                    </a>
+
+                    <a href="https://www.facebook.com/coffeeandcodednyc/" target="_blank" alt="facebook logo" class="left media_nav"> <img class="media_link" src="assets/facebook_logo.png"/>
+                    </a>
+
+                    <a href="https://www.linkedin.com/company/coffee-coded/" target="_blank" alt="linkedin logo" class="left media_nav"> <img class="media_link" src="assets/linkedin_logo.png"/>
+                    </a>
+
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="subscribe_button footer-subscribe subscribe_space_modify">
+                  <a href="http://eepurl.com/drjC6z" target="_blank">
+                    <p class="subscribe_text footer-subscribe-text">SUBSCRIBE</p>
+                  </a>
+                </div>
+              </li>
+
+            </ul>
+
+            <!-- end collapsible nav -->
+
+      </header>
 
 
-      <section>
-        <div class="logo_pos">
-          <img class="logo_size" src="logod746e378dc/logo1d24938da9.png" alt="logo"/>
+      <section class="hero_section section_minus_height">
+
+        <div class="hero_image">
+
+          <div class="alternate-tagline">
+            <h2>Code. Create. Challenge Assumptions.</h2>
+          </div>
+
         </div>
-
-        <div class="tagline">
-          EDUCATION FOR WOMEN & GIRLS
-        </div>
-
       </section>
 
-      <section>
+      <main class="mycontainer">
+
+      <section class="section_minus_height">
         <div class="#">
           <div class="about-box">
-            <p class="title mod_about"> ABOUT US</p>
-
+            <p class="title mod_about"> What We Do</p>
           </div>
 
-
-
-          <p class="text"> COFFEE & CODED is an educational event series for women and girls interested in learning to code! We host monthly events in NYC and the five boroughs. Our team of diverse code professionals are dedicated to creating an engaging learning environment. Join us at our next event! You bring your laptop, we bring the coffee! </p>
-
-
-          <div class="#">
-            <p class="title" style="color: #E84A87;"> OUR MISSION </p>
+          <div class="logo_pos">
+              <img class="logo_size" src="logod746e378dc/logo1d24938da9.png" alt="logo"/>
           </div>
 
-          <p class="text text-mission">“We aspire to inspire women and girls to create, code, and challenge assumptions.”</p>
-
+          <p class="text"> COFFEE & CODED is an educational event series for women and girls interested in learning to code! We host monthly events in NYC and the five boroughs. Join us at our next event! You bring your laptop, we bring the coffee! </p>
 
           <div class="#">
             <p class="title" style="color: black;"> TOPICS INCLUDE: </p>
           </div>
-
-
 
           <div class="list">
           <ul>
@@ -121,22 +206,10 @@
             <div class="subscribe_button">
                 <a href="http://eepurl.com/drjC6z" target="_blank">
                   <p class="subscribe_text">SUBSCRIBE</p>
-            <!-- Modal Trigger -->
-              <!-- <button data-target="modal1" class="btn modal-trigger">Subscribe</button> -->
-
-              <!-- Modal Structure -->
-                <!-- <div id="modal1" class="modal">
-                  <div class="modal-content">
-
-                  </div>
-
-                </div> -->
                 </a>
-          </div>
-
+            </div>
 
         </div>
-
       </section>
 
       <section>
@@ -147,156 +220,149 @@
                 &nbsp;
         </div>
 
-        <div class="about-box event_margin">
-          <p class="title">UPCOMING EVENTS</p>
+        <div class="margin-spacer">
+          &nbsp;
         </div>
 
-
-          <div class="event_container">
-
-            <div class="event_pos">
-              <a href="https://www.eventbrite.com/e/coffee-coded-beginners-html-css-tickets-44065898288?aff=erelpanelorg">
-                <img class="event_size" src="assets/event4_14.PNG" alt="event april 14th" target="_blank">
-              </a>
-            </div>
-
-            <div class="event_pos">
-              <a href="https://www.eventbrite.com/e/coffee-coded-resume-ready-tickets-45128779394">
-                <img class="event_size" src="assets/event4_24.PNG" alt="event april 24th" target="_blank">
-              </a>
-            </div>
-
-            <div class="event_pos">
-              <a href="https://www.eventbrite.com/e/coffee-coded-beginners-html-css-tickets-44066186149?aff=erelpanelorg">
-              <img class="event_size" src="assets/event4_28.PNG" alt="event april 28th" target="_blank">
-              </a>
-            </div>
-
-            <div class="event_pos">
-              <a href="https://www.eventbrite.com/e/coffee-coded-beginners-html-css-tickets-45464849589">
-              <img class="event_size" src="assets/event5_14.PNG" alt="event may 14th" target="_blank">
-              </a>
-            </div>
-
-            <div class="event_pos">
-              <a href="https://www.eventbrite.com/e/coffee-coded-ready-to-launch-tickets-45465074261">
-              <img class="event_size" src="assets/event5_16.PNG" alt="event may 17th" target="_blank">
-              </a>
-            </div>
-
-            <div class="event_pos">
-              <a href="https://www.eventbrite.com/e/coffee-coded-intro-to-javascript-tickets-45464931835">
-              <img class="event_size" src="assets/event5_31.PNG" alt="event may 31st" target="_blank">
-              </a>
-            </div>
-
+          <div class="about-box event_margin">
+            <p class="title">UPCOMING EVENTS</p>
           </div>
-
-
-
-
-        <div class="main_style_border">
-            &nbsp;
-        </div>
-        <div class="main_style_border">
-            &nbsp;
-        </div>
 
       </section>
 
-      <section>
-        <div class="#">
-          <div class="about-box">
-            <p class="title mod_about">FOLLOW US</p>
-          </div>
+      <section class="container section_height">
 
-        </div>
+            <div class="row">
+              <div class="col s12 m12 l12">
+                <div class="card small horizontal">
+                  <div class="card-image">
+                    <img src="assets/13.png">
+                  </div>
+                  <div class="card-stacked">
+                    <div class="card-content">
+                      <h3 class="card_title">Beginners: Intro to HTML/CSS </h3>
+                      <p class="card-desc">May 14th, 2018</p>
+                      <p class="card-desc">New York, NY</p>
+                    </div>
+                    <div class="card-action" id="card-action-background">
+                      <a href="https://www.eventbrite.com/e/coffee-coded-beginners-html-css-tickets-45464849589" target="_blank" style="color:white;">REGISTER</a>
+                    </div>
+                  </div>
+                </div>
+                </div>
 
-        <div class="media_links center-align">
-              <!-- <img class="media_link" src="assets/facebook_logo.png"/> -->
-              <a href="https://www.instagram.com/coffeeandcoded_nyc/" target="_blank">
-                <img class="media_link" src="assets/instagram_logo.png" alt="instagram logo"/>
-              </a>
+                <div class="col s12 m12 l12">
+                <div class="card small horizontal">
+                  <div class="card-image">
+                    <img src="assets/ready-to-launch-insta.png">
+                  </div>
+                  <div class="card-stacked">
+                    <div class="card-content">
+                      <h3 class="card_title"> Ready to Launch</h3>
+                        <p class="card-desc">May 16th, 2018</p>
+                          <p class="card-desc">New York, NY</p>
+                    </div>
+                    <div class="card-action" id="card-action-background">
+                      <a href="https://www.eventbrite.com/e/coffee-coded-ready-to-launch-tickets-45465074261" target="_blank" style="color:white;">REGISTER</a>
+                    </div>
+                  </div>
+                </div>
+                </div>
 
-              <a href="https://twitter.com/coffeeandcoded" target="_blank" alt="instagram logo"> <img class="media_link" src="assets/twitter_logo.png"/>
-              </a>
-
-              <a href="https://www.facebook.com/coffeeandcodednyc/" target="_blank" alt="facebook logo"> <img class="media_link" src="assets/facebook_logo.png"/>
-              </a>
-
-        </div>
-
-
-      </section>
-
-      <section>
-        <div class="#">
-          <div class="about-box">
-            <p class="title mod_about"> GET IN TOUCH</p>
-          </div>
-
-        <p class="text"> For questions, bookings, partnerships or volunteer opportunities,  contact us below and we'll respond via email!</p>
-        </div>
-
-        <div class="row">
-              <div class="contact-col">
-                <div class="contact-form">
-                  <form action="https://formspree.io/info@coffeeandcoded.com"
-                        method="POST" class="input-format clearfix">
-                          <i class="material-icons prefix left">account_circle</i>
-                      <input id="icon_prefix" type="text" name="first name" placeholder="First Name" class="input-format left">
-                          <i class="material-icons prefix left">account_circle</i>
-                      <input id="icon_prefix" type="text" name="last name" placeholder="Last Name" class="input-format left">
-                        <i class="material-icons prefix left">email</i>
-                      <input  id="icon_telephone" type="email" name="_replyto" placeholder="Email address ex. john.doe@domain.com" class='input-format left'>
-
-                      <textarea id="icon_email" name="message" placeholder="Your message" class="message-format"></textarea>
-                      <button type="submit" style="color:#E84A87">Send</button>
-
-                  </form>
+                <div class="col s12 m12 l12">
+                <div class="card small horizontal">
+                  <div class="card-image">
+                    <img src="assets/13.png">
+                  </div>
+                  <div class="card-stacked">
+                    <div class="card-content">
+                      <h3 class="card_title">Intro to JavaScript</h3>
+                        <p class="card-desc">May 31st, 2018</p>
+                      <p class='card-desc'>New York, NY</p>
+                    </div>
+                    <div class="card-action" id="card-action-background">
+                      <a href="https://www.eventbrite.com/e/coffee-coded-intro-to-javascript-tickets-45464931835" target="_blank" style="color:white;">REGISTER</a>
+                    </div>
+                  </div>
                 </div>
               </div>
-              </div>
+            </div>
+        </section>
 
 
-              <div class="disclaimer">
-                <p>The mission of COFFEE & CODED is to provide a supportive learning environment for women and girls. All people regardless of sex or gender are welcome to our events. We do not and shall not discriminate on the basis of race, color, religion (creed), gender, gender expression, age, national origin (ancestry), disability, marital status, sexual orientation, or military status, in any of its activities or operations. We are committed to providing an inclusive and welcoming environment for all members of our staff, clients, volunteers, subcontractors, vendors, and clients. </p>
+          <div class="main_style_border">
+              &nbsp;
+          </div>
+          <div class="main_style_border">
+              &nbsp;
+          </div>
 
-              </div>
-
+      <section>
+        <div class="disclaimer">
+            <p>The mission of COFFEE & CODED is to provide a supportive learning environment for women and girls. All people regardless of sex or gender are welcome to our events. We do not and shall not discriminate on the basis of race, color, religion (creed), gender, gender expression, age, national origin (ancestry), disability, marital status, sexual orientation, or military status, in any of its activities or operations. We are committed to providing an inclusive and welcoming environment for all members of our staff, clients, volunteers, subcontractors, vendors, and clients. </p>
+        </div>
       </section>
 
     </main>
 
-    <footer>
-      <nav>
-      <div class="nav-wrapper pink accent-4">
+    <footer class="page-footer pink accent-4">
+      <div class="center-align">
+        <div class="footer-nav-links">
+          <ul>
+             <li><a class="grey-text text-lighten-3  footer-nav-space" href="index.html">Home </a></li>
+             <li><a class="grey-text text-lighten-3  footer-nav-space" href="about-us.html">About Us</a></li>
+             <li><a class="grey-text text-lighten-3  footer-nav-space" href="events.html">Events</a></li>
+             <!-- <li><a class="grey-text text-lighten-3  footer-nav-space" href="blog.html">Blog</a></li> -->
+             <li><a class="grey-text text-lighten-3  footer-nav-space" href="contact-us.html">Contact Us</a></li>
+           </ul>
+         </div>
+       </div>
+            </div>
+
+        <div class="subscribe_button footer-subscribe">
+          <a href="http://eepurl.com/drjC6z" target="_blank">
+            <p class="subscribe_text footer-subscribe-text">SUBSCRIBE</p>
+          </a>
+        </div>
+
+
+        <div class="media_links center-align">
+          <a href="https://www.instagram.com/coffeeandcoded_nyc/" target="_blank">
+            <img class="media_link" src="assets/instagram_logo.png" alt="instagram logo"/>
+          </a>
+
+          <a href="https://twitter.com/coffeeandcoded" target="_blank" alt="instagram logo"> <img class="media_link" src="assets/twitter_logo.png"/>
+          </a>
+
+          <a href="https://www.facebook.com/coffeeandcodednyc/" target="_blank" alt="facebook logo"> <img class="media_link" src="assets/facebook_logo.png"/>
+          </a>
+
+          <a href="https://www.linkedin.com/company/coffee-coded/" target="_blank" alt="linkedin logo"> <img class="media_link" src="assets/linkedin_logo.png"/>
+          </a>
+        </div>
 
         <div class="footer_copyright">
-
          <div class= "copyright_center">
          © Copyright 2017
          </div>
-
+         <div class="copyright_center">
+           All Rights Reserved.
+         </div>
+         <div class="copyright_center">
+           Hero image attribution to www.wocintechchat.com under the creative commons attribution license.
+         </div>
        </div>
-
-     </div>
-    </nav>
     </footer>
 
-
+<!-- begin script links -->
 
         <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
           crossorigin="anonymous"></script>
-
-
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
         <script src="main.js" ></script>
 
-              <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
-              <script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us17.list-manage.com","uuid":"d2f139877a5f7226d3bb86ca7","lid":"a849df2749"}) })</script>
-
-
+        <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+        <script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us17.list-manage.com","uuid":"d2f139877a5f7226d3bb86ca7","lid":"a849df2749"}) })</script>
 
   </body>
 </html>
