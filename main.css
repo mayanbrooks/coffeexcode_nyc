@@ -1,3 +1,4 @@
+
 body {
   display: flex;
    min-height: 100vh;
@@ -45,6 +46,7 @@ section{
   max-width: 33%;
 }
 
+
 .hero_section{
   min-height: 750px;
   margin-top: 0px;
@@ -53,19 +55,20 @@ section{
 }
 
 .hero_image{
+  height: 750px;
+  width: 100%;
   background-image: url("assets/woctech-msft-edited-2.jpg");
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 750px;
+  /* background-size: 100% 100%; */
   margin: 0px;
   box-sizing: border-box;
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-}
 
+}
 
 .alternate-tagline{
   color: white;
@@ -93,9 +96,10 @@ section{
 }
 
 .logo_size{
-  width: 250px;
+  max-width: 250px;
   box-sizing: border-box;
 }
+
 
 .nav-wrapper{
   font-family: "Roboto";
@@ -109,14 +113,16 @@ section{
 .header_mini_logo{
   margin: 0 auto;
   text-align:center;
+
 }
 
 .mini_logo_text_direct{
   margin: 0 auto;
+
 }
 
 .mini_logo_direct{
-  width: 80px;
+  max-width: 80px;
   padding-top: 12px;
 }
 
@@ -328,7 +334,7 @@ textarea{
 }
 
 .contact-col{
-  margin:  150px;
+  margin-top:  150px;
 }
 
 .contact-text-modified{
