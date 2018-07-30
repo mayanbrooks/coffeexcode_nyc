@@ -131,7 +131,6 @@ section{
   padding-top: 40px;
   font-style: italic;
   color: #390D6B;
-  font-family: "Rubik", sans-serif;
   font-family: "arial", sans-serif;
   text-align: center;
 
@@ -149,9 +148,17 @@ section{
   /* background-color: #E84A87; */
 }
 
+.about_text{
+  font-size: 36px;
+  font-family: "Lato",sans-serif;
+  text-align: center;
+  font-weight: 100;
+  margin: 0;
+
+}
+
 .title{
   font-size: 36px;
-  font-family: "Rubik", sans-serif;
   font-family: "arial", sans-serif;
   text-align: center;
   padding: 10px;
@@ -163,23 +170,27 @@ section{
   font-size: 22px;
   text-align: center;
   padding: 36px;
-  font-family: "Rubik", sans-serif;
   font-family: "arial", sans-serif;
 
+}
+
+.workshop_grid{
+    display: grid;
+    grid-template-columns: 10rem 10rem 10rem;
+    grid-gap: 1rem;
 }
 
 
 .text-mission{
 padding: 20px;
 font-style: italic;
-font-size: 40px;
+font-size: 32px;
 }
 
 .list{
   margin: 0 auto;
   text-align: center;
   font-size: 22px;
-  font-family: "Rubik", sans-serif;
   font-family: "arial", sans-serif;
 }
 
@@ -398,3 +409,32 @@ textarea{
 /* blog styling */
 .hashtag_color{
 color: #e84a87}
+
+
+/* careers styling */
+.job_title{
+  font-size: 22px;
+  text-align: left;
+  font-weight: bold;
+  padding-left: 36px;
+  padding-right: 36px;
+  font-family: "arial", sans-serif;
+  color: #e84a87;
+
+}
+
+
+.job_text{
+  font-size: 22px;
+  padding-left: 36px !important;
+  padding-right: 36px;
+  text-align: left;
+  font-family: "arial", sans-serif;
+
+}
+
+.job_apply_button{
+  margin: 0 auto;
+  text-align: center;
+
+}
