@@ -157,11 +157,15 @@ section{
 
 }
 
+.facts{
+  font-size: 30px;
+}
+
 .title{
   font-size: 36px;
-  font-family: "arial", sans-serif;
+  font-family: "Lato", sans-serif;
   text-align: center;
-  padding: 10px;
+  padding: 15px;
   margin: 0;
   color:  #E84A87;
 }
@@ -170,28 +174,33 @@ section{
   font-size: 22px;
   text-align: center;
   padding: 36px;
-  font-family: "arial", sans-serif;
+  font-family: "Lato", sans-serif;
 
 }
 
-.workshop_grid{
-    display: grid;
-    grid-template-columns: 10rem 10rem 10rem;
-    grid-gap: 1rem;
+.workshops_container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: 100%;
+  min-height: 150px;
+  margin: 0 auto;
+  text-align: center;
+
 }
 
 
 .text-mission{
-padding: 20px;
-font-style: italic;
-font-size: 32px;
+  padding: 20px;
+  font-style: italic;
+  font-size: 32px;
 }
 
 .list{
   margin: 0 auto;
   text-align: center;
   font-size: 22px;
-  font-family: "arial", sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 .topic{
@@ -223,11 +232,11 @@ font-size: 32px;
     margin: 0 auto;
     padding: 10px;
     background-color: #E84A87;
-    border: 1px solid black;
+    border: 1px solid #e84a87;
 
   }
 
-  .subscribe_space_modify{
+.subscribe_space_modify{
     padding: 2px;
   }
 
@@ -262,6 +271,10 @@ font-size: 32px;
 .card-desc{
   padding-left: 20px;
   font-size: 20px;
+}
+
+.list_padding{
+  padding-top: 15px;
 }
 
 
