@@ -46,6 +46,25 @@ section{
   max-width: 33%;
 }
 
+.announcement_bar{
+  background-color: black;
+  height: 40px;
+  width: 100%;
+  position: absolute;
+  top: 64px;
+  z-index: 1.0;
+
+}
+
+.annoucement_text{
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  position: relative;
+  top: -50%;
+  left: 0%;
+  font-family: arial;
+}
 
 .hero_section{
   min-height: 750px;
@@ -303,6 +322,11 @@ section{
   border-radius: 0.25;
 }
 
+.video_wrapper{
+  text-align: center;
+  margin: 0 auto;
+}
+
 
 .footer-nav-links{
   text-align: center;
@@ -409,6 +433,28 @@ textarea{
   padding: 5px;
   font-size: 16px;
   font-family: arial, sans-serif;
+}
+
+
+
+.team_box{
+  /* text-align: center; */
+  min-height: 1000px;
+  width: 100%;
+  margin-bottom: 200px;
+  box-sizing: border-box;
+
+
+}
+
+.founder_card{
+  width: 250px;
+  min-height: 400px;
+  float: left;
+  margin: 10px;
+  position: absolute;
+  top: 0%;
+  transform: translate(10%, 50%);
 }
 
 /* events styling */
