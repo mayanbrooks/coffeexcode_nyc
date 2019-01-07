@@ -436,8 +436,6 @@ textarea{
   font-family: arial, sans-serif;
 }
 
-
-
 .team_box{
   /* text-align: center; */
   min-height: 1000px;
@@ -456,6 +454,26 @@ textarea{
   position: absolute;
   top: 0%;
   transform: translate(10%, 50%);
+}
+
+.backer_cat{
+  color: #e84a87;
+  font-size: 24px;
+  font-family: "Lato", sans-serif;
+}
+
+.backername{
+  list-style: none;
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+}
+
+.report-box{
+  text-align: center;
+}
+.report{
+  margin-top: 150px;
+  width: 375px;
 }
 
 /* events styling */
