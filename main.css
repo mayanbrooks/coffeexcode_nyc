@@ -321,6 +321,10 @@ section{
   margin: 0 auto;
 }
 
+.lightwidget_container{
+  width: 50%;
+}
+
 
 .footer-nav-links{
   text-align: center;
