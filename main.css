@@ -206,6 +206,16 @@ section{
 
 }
 
+.workshop_column_center{
+  margin: 0 auto;
+  /* margin-left: 80px;
+  margin-right: 50px; */
+}
+
+.column_margin{
+  margin-bottom: 20px;
+}
+
 
 .text-mission{
   padding: 20px;
