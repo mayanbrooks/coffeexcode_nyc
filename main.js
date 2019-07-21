@@ -16,3 +16,12 @@ $(document).ready(function(){
 $(document).ready(function(){
     $('.materialboxed').materialbox();
   });
+
+$(document).ready(function(){
+    $('.carousel').carousel();
+  });
+
+  $('.carousel').carousel();
+    setInterval(function() {
+      $('.carousel').carousel('next');
+    }, 3000); // every 2 seconds
