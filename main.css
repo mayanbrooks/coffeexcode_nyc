@@ -169,7 +169,7 @@ section{
 }
 
 .about_text{
-  font-size: 36px;
+  font-size: 20px;
   font-family: "Lato",sans-serif;
   text-align: center;
   font-weight: 100;
@@ -179,7 +179,7 @@ section{
 
 
 .title{
-  font-size: 36px;
+  font-size: 24px;
   font-family: "Lato", sans-serif;
   text-align: center;
   padding: 15px;
@@ -188,7 +188,7 @@ section{
 }
 
 .text{
-  font-size: 22px;
+  font-size: 16px;
   text-align: center;
   padding: 36px;
   font-family: "Lato", sans-serif;
@@ -218,7 +218,7 @@ section{
 
 
 .text-mission{
-  padding: 20px;
+  padding: 16px;
   font-style: italic;
   font-size: 32px;
 }
@@ -226,7 +226,7 @@ section{
 .list{
   margin: 0 auto;
   text-align: center;
-  font-size: 22px;
+  font-size: 16px;
   font-family: "Lato", sans-serif;
 }
 
@@ -269,7 +269,7 @@ section{
 
 .subscribe_text{
     color: white;
-    font-size: 30px;
+    font-size: 24px;
     text-align: center;
     margin: 0;
   }
@@ -288,12 +288,12 @@ section{
 .card_title{
   margin: 0px;
   padding: 20px;
-  font-size: 26px;
+  font-size: 20px;
 }
 
 .card-desc{
   padding-left: 20px;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .list_padding{
