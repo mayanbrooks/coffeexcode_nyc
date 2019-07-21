@@ -169,7 +169,7 @@ section{
 }
 
 .about_text{
-  font-size: 20px;
+  font-size: 36px;
   font-family: "Lato",sans-serif;
   text-align: center;
   font-weight: 100;
@@ -188,7 +188,7 @@ section{
 }
 
 .text{
-  font-size: 16px;
+  font-size: 24px;
   text-align: center;
   padding: 36px;
   font-family: "Lato", sans-serif;
@@ -226,7 +226,7 @@ section{
 .list{
   margin: 0 auto;
   text-align: center;
-  font-size: 16px;
+  font-size: 24px;
   font-family: "Lato", sans-serif;
 }
 
